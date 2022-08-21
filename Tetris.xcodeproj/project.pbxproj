@@ -7,28 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		521A24BC28B269FB008CA686 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 521A24BB28B269FB008CA686 /* AppDelegate.m */; };
-		521A24BF28B269FB008CA686 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 521A24BE28B269FB008CA686 /* SceneDelegate.m */; };
-		521A24C228B269FB008CA686 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 521A24C128B269FB008CA686 /* ViewController.m */; };
-		521A24C528B269FB008CA686 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 521A24C328B269FB008CA686 /* Main.storyboard */; };
-		521A24C728B269FE008CA686 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 521A24C628B269FE008CA686 /* Assets.xcassets */; };
-		521A24CA28B269FE008CA686 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 521A24C828B269FE008CA686 /* LaunchScreen.storyboard */; };
-		521A24CD28B269FE008CA686 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 521A24CC28B269FE008CA686 /* main.m */; };
+		521A24E028B26A55008CA686 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 521A24D328B26A54008CA686 /* SceneDelegate.m */; };
+		521A24E128B26A55008CA686 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 521A24D428B26A54008CA686 /* Assets.xcassets */; };
+		521A24E228B26A55008CA686 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 521A24D528B26A54008CA686 /* AppDelegate.m */; };
+		521A24E628B26A55008CA686 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 521A24DB28B26A55008CA686 /* main.m */; };
+		521A24F028B26AC7008CA686 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 521A24EE28B26AC7008CA686 /* ViewController.m */; };
+		52B2528328B26DC700977DF5 /* Neumophic.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B2528028B26DC700977DF5 /* Neumophic.m */; };
+		52B2528428B26DC700977DF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B2528128B26DC700977DF5 /* Main.storyboard */; };
+		52B2528628B26FA700977DF5 /* TetrisGameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BDB3AA28B26C8800022FC0 /* TetrisGameModel.m */; };
+		52B2528728B26FAB00977DF5 /* TetrominoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BDB3AE28B26C8800022FC0 /* TetrominoModel.m */; };
+		52B2528828B26FAD00977DF5 /* BlockStructures.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BDB3AF28B26C8800022FC0 /* BlockStructures.m */; };
+		52B2528A28B2704700977DF5 /* tetris.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52B2528928B2704700977DF5 /* tetris.mp3 */; };
+		52BDB3A428B26C1100022FC0 /* TetrisGameViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BDB3A228B26C1100022FC0 /* TetrisGameViewModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		521A24B728B269FB008CA686 /* Tetris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tetris.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		521A24BA28B269FB008CA686 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		521A24BB28B269FB008CA686 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		521A24BD28B269FB008CA686 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		521A24BE28B269FB008CA686 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		521A24C028B269FB008CA686 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		521A24C128B269FB008CA686 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		521A24C428B269FB008CA686 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		521A24C628B269FE008CA686 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		521A24C928B269FE008CA686 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		521A24CB28B269FE008CA686 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		521A24CC28B269FE008CA686 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		521A24D328B26A54008CA686 /* SceneDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		521A24D428B26A54008CA686 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		521A24D528B26A54008CA686 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		521A24D628B26A54008CA686 /* SceneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		521A24D928B26A55008CA686 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		521A24DB28B26A55008CA686 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		521A24EE28B26AC7008CA686 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		521A24EF28B26AC7008CA686 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		52B2527F28B26DC700977DF5 /* Neumophic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Neumophic.h; sourceTree = "<group>"; };
+		52B2528028B26DC700977DF5 /* Neumophic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Neumophic.m; sourceTree = "<group>"; };
+		52B2528128B26DC700977DF5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		52B2528528B26F3500977DF5 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52B2528928B2704700977DF5 /* tetris.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tetris.mp3; sourceTree = "<group>"; };
+		52BDB3A228B26C1100022FC0 /* TetrisGameViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TetrisGameViewModel.m; sourceTree = "<group>"; };
+		52BDB3A328B26C1100022FC0 /* TetrisGameViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TetrisGameViewModel.h; sourceTree = "<group>"; };
+		52BDB3AA28B26C8800022FC0 /* TetrisGameModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TetrisGameModel.m; sourceTree = "<group>"; };
+		52BDB3AB28B26C8800022FC0 /* TetrominoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TetrominoModel.h; sourceTree = "<group>"; };
+		52BDB3AC28B26C8800022FC0 /* BlockStructures.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockStructures.h; sourceTree = "<group>"; };
+		52BDB3AD28B26C8800022FC0 /* TetrisGameModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TetrisGameModel.h; sourceTree = "<group>"; };
+		52BDB3AE28B26C8800022FC0 /* TetrominoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TetrominoModel.m; sourceTree = "<group>"; };
+		52BDB3AF28B26C8800022FC0 /* BlockStructures.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockStructures.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,19 +77,70 @@
 		521A24B928B269FB008CA686 /* Tetris */ = {
 			isa = PBXGroup;
 			children = (
-				521A24BA28B269FB008CA686 /* AppDelegate.h */,
-				521A24BB28B269FB008CA686 /* AppDelegate.m */,
-				521A24BD28B269FB008CA686 /* SceneDelegate.h */,
-				521A24BE28B269FB008CA686 /* SceneDelegate.m */,
-				521A24C028B269FB008CA686 /* ViewController.h */,
-				521A24C128B269FB008CA686 /* ViewController.m */,
-				521A24C328B269FB008CA686 /* Main.storyboard */,
-				521A24C628B269FE008CA686 /* Assets.xcassets */,
-				521A24C828B269FE008CA686 /* LaunchScreen.storyboard */,
+				521A24DB28B26A55008CA686 /* main.m */,
+				521A24D628B26A54008CA686 /* SceneDelegate.h */,
+				521A24D328B26A54008CA686 /* SceneDelegate.m */,
 				521A24CB28B269FE008CA686 /* Info.plist */,
-				521A24CC28B269FE008CA686 /* main.m */,
+				521A24D928B26A55008CA686 /* AppDelegate.h */,
+				521A24D528B26A54008CA686 /* AppDelegate.m */,
+				521A24D428B26A54008CA686 /* Assets.xcassets */,
+				52B2528B28B2706F00977DF5 /* Audios */,
+				52BDB3B528B26CA300022FC0 /* Views */,
+				52BDB3A628B26C4200022FC0 /* ViewModels */,
+				52BDB3A928B26C8800022FC0 /* Models */,
+				52BDB3A728B26C5B00022FC0 /* Controllers */,
 			);
 			path = Tetris;
+			sourceTree = "<group>";
+		};
+		52B2528B28B2706F00977DF5 /* Audios */ = {
+			isa = PBXGroup;
+			children = (
+				52B2528928B2704700977DF5 /* tetris.mp3 */,
+			);
+			path = Audios;
+			sourceTree = "<group>";
+		};
+		52BDB3A628B26C4200022FC0 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				52BDB3A328B26C1100022FC0 /* TetrisGameViewModel.h */,
+				52BDB3A228B26C1100022FC0 /* TetrisGameViewModel.m */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		52BDB3A728B26C5B00022FC0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				521A24EF28B26AC7008CA686 /* ViewController.h */,
+				521A24EE28B26AC7008CA686 /* ViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		52BDB3A928B26C8800022FC0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				52BDB3AA28B26C8800022FC0 /* TetrisGameModel.m */,
+				52BDB3AB28B26C8800022FC0 /* TetrominoModel.h */,
+				52BDB3AC28B26C8800022FC0 /* BlockStructures.h */,
+				52BDB3AD28B26C8800022FC0 /* TetrisGameModel.h */,
+				52BDB3AE28B26C8800022FC0 /* TetrominoModel.m */,
+				52BDB3AF28B26C8800022FC0 /* BlockStructures.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		52BDB3B528B26CA300022FC0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				52B2528528B26F3500977DF5 /* LaunchScreen.storyboard */,
+				52B2528128B26DC700977DF5 /* Main.storyboard */,
+				52B2527F28B26DC700977DF5 /* Neumophic.h */,
+				52B2528028B26DC700977DF5 /* Neumophic.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,9 +200,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				521A24CA28B269FE008CA686 /* LaunchScreen.storyboard in Resources */,
-				521A24C728B269FE008CA686 /* Assets.xcassets in Resources */,
-				521A24C528B269FB008CA686 /* Main.storyboard in Resources */,
+				52B2528428B26DC700977DF5 /* Main.storyboard in Resources */,
+				52B2528A28B2704700977DF5 /* tetris.mp3 in Resources */,
+				521A24E128B26A55008CA686 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,33 +213,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				521A24C228B269FB008CA686 /* ViewController.m in Sources */,
-				521A24BC28B269FB008CA686 /* AppDelegate.m in Sources */,
-				521A24CD28B269FE008CA686 /* main.m in Sources */,
-				521A24BF28B269FB008CA686 /* SceneDelegate.m in Sources */,
+				52B2528828B26FAD00977DF5 /* BlockStructures.m in Sources */,
+				52B2528728B26FAB00977DF5 /* TetrominoModel.m in Sources */,
+				52B2528628B26FA700977DF5 /* TetrisGameModel.m in Sources */,
+				52B2528328B26DC700977DF5 /* Neumophic.m in Sources */,
+				52BDB3A428B26C1100022FC0 /* TetrisGameViewModel.m in Sources */,
+				521A24E228B26A55008CA686 /* AppDelegate.m in Sources */,
+				521A24E628B26A55008CA686 /* main.m in Sources */,
+				521A24F028B26AC7008CA686 /* ViewController.m in Sources */,
+				521A24E028B26A55008CA686 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		521A24C328B269FB008CA686 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				521A24C428B269FB008CA686 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		521A24C828B269FE008CA686 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				521A24C928B269FE008CA686 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		521A24CE28B269FE008CA686 /* Debug */ = {
