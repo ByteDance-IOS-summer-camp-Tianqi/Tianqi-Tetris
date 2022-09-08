@@ -8,6 +8,7 @@
 #import "TetrisGameViewModel.h"
 #import "../Views/Neumophic.h"
 
+
 @interface TetrisGameViewModel ()
 
 - (TetrisGameSquare *)convertToSquare:(TetrisGameBlock *)block;
@@ -148,27 +149,27 @@
 }
 
 - (void)RightButtonClick{
-    [self.tetrisGameModel moveTetrominoRight];
+    self.tetrisGameModel.movement = Right;
 }
 
 - (void)LeftButtonClick{
-    [self.tetrisGameModel moveTetrominoLeft];
+    self.tetrisGameModel.movement = Left;
 }
 
 - (void)DownButtonClick{
-    [self.tetrisGameModel moveTetrominoDown];
+    self.tetrisGameModel.movement = Drop;
 }
 
 - (void)UpButtonClick{
-    [self.tetrisGameModel dropTetromino];
+    self.tetrisGameModel.movement = RotateClockwise;
 }
 
 - (void)ClockwiseButtonClick{
-    [self.tetrisGameModel rotateTetrominoWithClockwise:true];
+    self.tetrisGameModel.movement = RotateClockwise;
 }
 
 - (void)AntiClockwiseButtonClick{
-    [self.tetrisGameModel rotateTetrominoWithClockwise:false];
+    self.tetrisGameModel.movement = RotateCounterClockwise;
 }
 
 - (void)PlayAndPauseButtonClick{

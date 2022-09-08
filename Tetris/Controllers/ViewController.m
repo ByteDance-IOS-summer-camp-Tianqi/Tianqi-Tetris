@@ -88,19 +88,19 @@
 
 - (void)upPressed{
 //    NSLog(@"Up Pressed");
-    [self.tetrisGameViewModel.tetrisGameModel rotateTetrominoWithClockwise:true];
+    [self.tetrisGameViewModel ClockwiseButtonClick];
 }
 - (void)downPressed{
 //    NSLog(@"Down Pressed");
-    [self.tetrisGameViewModel.tetrisGameModel dropTetromino];
+    [self.tetrisGameViewModel DownButtonClick];
 }
 - (void)leftPressed{
 //    NSLog(@"Left Pressed");
-    [self.tetrisGameViewModel.tetrisGameModel moveTetrominoLeft];
+    [self.tetrisGameViewModel LeftButtonClick];
 }
 - (void)rightPressed{
 //    NSLog(@"Right Pressed");
-    [self.tetrisGameViewModel.tetrisGameModel moveTetrominoRight];
+    [self.tetrisGameViewModel RightButtonClick];
 }
 - (void)playPressed{
 //    NSLog(@"Play Pressed");

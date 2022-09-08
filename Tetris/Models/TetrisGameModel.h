@@ -16,6 +16,15 @@ typedef enum {
     Over
 } GameState;
 
+typedef enum {
+    None,
+    Left,
+    Right,
+    RotateClockwise,
+    RotateCounterClockwise,
+    Drop
+} Movement;
+
 @interface TetrisGameModel : NSObject
 
 @property (nonatomic, assign) int numRows;
@@ -29,6 +38,8 @@ typedef enum {
 @property (nonatomic, assign) double speed;
 @property (atomic, assign) GameState gameState;
 @property (nonatomic, assign) int status;
+
+@property (atomic, assign) Movement movement;
 
 - (id)initGameModel;
 - (void) newGame;

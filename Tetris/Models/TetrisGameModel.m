@@ -15,7 +15,7 @@
     self.numRows = 20;
     self.numColumns = 12;
     self.score = 0;
-    self.speed = 0.70;
+    self.speed = 0.40;
     self.gameState = (GameState) Over;
     
     self.gameBoard = [NSMutableArray array];
@@ -86,6 +86,27 @@
         }
         return;
     }
+    
+    if(self.movement != None){
+        switch (self.movement){
+            case None:
+                break;
+            case Left: [self moveTetrominoLeft];
+                break;
+            case Right: [self moveTetrominoRight];
+                break;
+            case RotateClockwise: [self rotateTetrominoWithClockwise:true];;
+                break;
+                
+            case RotateCounterClockwise:[self rotateTetrominoWithClockwise:true];
+                break;
+            case Drop:[self dropTetromino];
+                break;
+        }
+        self.movement = None;
+            
+    }
+    
     //see about moving down
     if ([self moveTetrominoDown]){
         NSLog(@"Moving Tetromino down, origin: (%d, %d)", self.tetromino.origin.row, self.tetromino.origin.column);
