@@ -2,7 +2,7 @@
 #### 拆分自项目：https://github.com/LzokChen/Tianqi_Group_Project
 
 ## 第四届字节跳动青训营IOS班大项目作业三：简化版本的俄罗斯方块游戏APP
-项目报告文档：[天气组: 青训营前端结业项目答辩汇报文档](https://wcxjq4bjfu.feishu.cn/docx/doxcnpxss1QuhNb3lu33dUqUlAd#doxcnsOaQgG8WGy4m06gvXWamZf)
+项目报告文档：[天气组: 答辩汇报文档 作业三：Tetris 俄罗斯方块游戏](https://wcxjq4bjfu.feishu.cn/docx/doxcn03t2GpV3VUTVb134fvDSQh)
 ### 天气组
 | 组员       | Github链接                       |
 |----------|--------------------------------|
