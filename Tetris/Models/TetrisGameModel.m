@@ -98,7 +98,7 @@
             case RotateClockwise: [self rotateTetrominoWithClockwise:true];;
                 break;
                 
-            case RotateCounterClockwise:[self rotateTetrominoWithClockwise:true];
+            case RotateCounterClockwise:[self rotateTetrominoWithClockwise:false];
                 break;
             case Drop:[self dropTetromino];
                 break;
